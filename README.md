@@ -1,1 +1,6 @@
-# writeup-hacker101
+# Write up Hacker101
+
+```
+|-- A little something to get you started
+|-- Micro-CMS v1
+```

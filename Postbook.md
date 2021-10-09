@@ -45,6 +45,9 @@ The cookie `id` lookly easy to crash, I think it is `md5` hash. Use the online t
 Easy to change to `id` of admin :)) `md5` hash value `1`
 `1` -> `c4ca4238a0b923820dcc509a6f75849b`
 
+```python
+Flag is : ^FLAG^abf5180c790d5c7d9a057e9df6e5ae5100c1617f8a04c1242b3ab2ae4fe406a4$FLAG$
+```
 # Flag6
 Inspect the post, I detect URL to delete post with given id hashed (`md5`).
 `href="index.php?page=delete.php&amp;id=8f14e45fceea167a5a36dedd4bea2543`

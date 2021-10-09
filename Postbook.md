@@ -50,7 +50,6 @@ Inspect the post, I detect URL to delete post with given id hashed (`md5`).
 `href="index.php?page=delete.php&amp;id=8f14e45fceea167a5a36dedd4bea2543`
 Crack `8f14e45fceea167a5a36dedd4bea2543` -> `7`
 So I can delete other's post by inspect the URL or hash `id`
-
 ```ruby
 Flag is : ^FLAG^0a156387ba924706220d8471e14b84be7535cc4220496b1db9f306f16f9437b1$FLAG$
 ```

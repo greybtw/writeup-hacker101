@@ -1,3 +1,4 @@
+# Flag0
 Firstly, I have to login before doing anything. A login form has appeard and SQL Injection is the first I got in my mind.
 ```
 username: admin'or/**/1=1--+-
@@ -26,7 +27,7 @@ And the frist flag in private page
 ```
 Flag is : ^FLAG^d0e601294c1ecc7f76fd8185b5a49178d6b7616a68e33d4bcde1d9c7ecbe079c$FLAG$
 ```
-
+# Flag1
 Secondly, I got a hint `Just because request fails with one method doesn't mean it will fail with a different method`. After that, I use BurpSutie to intercept the request and change method from `GET` to `POST`, but I always receive `BAD REQUEST The browser (or proxy) sent a request that this server could not understand.` 😶
 Okay fine, I decide to use `curl` tool in Kali for this purpose.
 ```
@@ -35,7 +36,7 @@ curl -v -X POST http://35.190.155.168/2ef1ae5437/page/edit/2
 ```
 Flag is : ^FLAG^09c2a73b2205519aa65ff713904d07024f36b1c4ce0bfaab7d25b567aa1596c9$FLAG$
 ```
-
+# Flag2
 Finally, I got final hint `Credentials are secret, flags are secret. Coincidence?`. This credentials are mentioned might be the password of someone else in database. So, back to login page and SQLi to find the password.
 
 You can use `sqlmap` to automaticly brute force, but I'll code in Python or use Burp Suite to understand what I am doing

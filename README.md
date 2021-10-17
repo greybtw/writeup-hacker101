@@ -5,4 +5,6 @@
 |-- Micro-CMS v1
 |-- Micro-CMS v2
 |-- Postbook
+|-- Petshop Pro
+|-- Photo Gallery
 ```
